@@ -5,7 +5,7 @@ import 'package:sama/sama culture screen.dart';
 import 'package:sama/sama media screen.dart';
 
 class HomeScreen extends StatefulWidget {
-  const HomeScreen({Key? key}) : super(key: key);
+
   @override
   State<HomeScreen> createState() => _HomeScreenState();
 }
