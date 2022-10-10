@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher.dart';
 
 class Courses extends StatelessWidget {
 
@@ -144,14 +143,6 @@ class Courses extends StatelessWidget {
                           Text(price,style: TextStyle(fontSize: 15,fontWeight: FontWeight.bold,color: Colors.grey[800])),
                         ],
                       ),
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.end,
-                        children: [
-                          TextButton(onPressed: (){azfFacebook();}, child: Text("انقر هنا",style: TextStyle(fontSize: 11,fontFamily: 'Tajawal',fontWeight: FontWeight.bold),),),
-                          Text("لمعرفة المزيد",style: TextStyle(fontSize: 11,fontFamily: 'Tajawal',fontWeight: FontWeight.bold),),
-                        ],
-                      )
-
                     ]
                 ),
               ),
@@ -165,39 +156,5 @@ class Courses extends StatelessWidget {
         )
       ],
     );
-  }
-  rsmFacebook() async {
-    const url = 'https://m.facebook.com/story.php?story_fbid=pfbid031f7RUDCbapuUBxdKC7fAPBwsPL5hPRFEvfzQY1TUhZVDxRdDVyML34BDm1ody7w5l&id=100076183721107';
-    if(await canLaunch(url)) {
-      await launch(url);
-    }
-  }
-
-  azfFacebook() async {
-    const url = 'https://www.facebook.com/samaelayuobi/posts/pfbid02X9zpXC8y1u5eBCrPNGjZyjUWW6rhSoqeJmhk1xFv56bSbQMgrxGC47cHCDMd1kNXl';
-    if(await canLaunch(url)) {
-      await launch(url);
-    }
-  }
-
-  dbkaFacebook() async {
-    const url = 'https://www.facebook.com/samaelayuobi/posts/pfbid0W413femCRRsTQyaDsunBZffXTvLxFypY1wXbUVyFjvG9stzbQ2thPuZf7LN82bS3l';
-    if(await canLaunch(url)) {
-      await launch(url);
-    }
-  }
-
-  nawraniFacebook() async {
-    const url = 'https://www.facebook.com/samaelayuobi/posts/pfbid03593Jqi4nJVhebvRRTdnxouneUj3njkMCBF341pnMCBr3Qu81MNR9k2UyQQrTtXM2l';
-    if(await canLaunch(url)) {
-      await launch(url);
-    }
-  }
-
-  ktFacebook() async {
-    const url = 'https://www.facebook.com/samaelayuobi/posts/pfbid02ooJh8aEtsae5fMorQLBc3S7k9Spm5r99wcppa83TtRPY45e5sUspNJoihJJUKjZJl';
-    if(await canLaunch(url)) {
-      await launch(url);
-    }
   }
 }
