@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:admob_flutter/admob_flutter.dart';
 class AdsManager {
-  static bool testMode = true;
+  static bool testMode = false;
 
   static String get appId{
     if(Platform.isAndroid) {
