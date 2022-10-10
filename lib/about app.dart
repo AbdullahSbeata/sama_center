@@ -9,7 +9,7 @@ class T6beeq extends StatefulWidget {
 
 class _T6beeqState extends State<T6beeq> with SingleTickerProviderStateMixin{
   AnimationController? animationController ;
-  double rotationAngle = 0;
+  double rotationAngle = 10;
   
   @override
   void initState() {
