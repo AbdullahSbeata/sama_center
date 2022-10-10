@@ -4,7 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:sama/splash_screen.dart';
 
 void main() {
-  //WidgetsFlutterBinding.ensureInitialized();
+  WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitUp,
   ]);
