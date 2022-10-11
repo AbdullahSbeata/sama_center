@@ -3,7 +3,6 @@ import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 class Amalna extends StatefulWidget {
-  const Amalna({Key? key}) : super(key: key);
 
   @override
   State<Amalna> createState() => _AmalnaState();
