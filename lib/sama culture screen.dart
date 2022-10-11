@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 class SamaCulture extends StatelessWidget {
 
+
   List<String> images = [
     'images/s2.png',
     'images/s3.png',
